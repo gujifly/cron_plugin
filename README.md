@@ -14,6 +14,8 @@
 #### 部署
 * 这个是一个 python 项目，需要客户机安装有 python 2.7 环境
 * 复制到任意文件夹，增加一个每分钟运行一次的计划任务（用域环境的，可通过域控下发策略实现），运行 cron_plugin.py
+* 默认配合 https://github.com/freedomkk-qfeng/windows-agent 使用，默认读取windows-agent 配置文件：C:\\windows-agent\cfg.json
+  来获取 HBS IP地址和端口
 
 <br>
 
