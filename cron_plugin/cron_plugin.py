@@ -56,8 +56,7 @@ def get_cmd_list(subdir):
  # 各进程回调函数，收集结果
 def collectMyResult(result):
     try:
-        for enum in json.loads(result):
-            p.append(enum)
+        p.extend(json.loads(result))
     except:
         return
 
